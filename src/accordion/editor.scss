@@ -1,0 +1,41 @@
+
+/* In style-frontend.css */
+.wp-block-sim-single-accordion {
+    .accordion-wrapper {
+        border: 1px solid #cccccc;
+        border-radius: 0px;
+        margin-bottom: 15px;
+        margin-top: 0px;
+
+        .sim__accordion-head {
+            align-items: center;
+            background-color: #EFF0EB;
+            color: #333333;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 15px 10px 15px;
+        
+            // header icon
+            .sim__accordion_icon {
+                border-radius: 50%;
+                height: 20px;
+                width: 20px;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                margin: 0;
+            }
+        }
+
+        .sim__accordion-body {
+            background-color: transparent;
+            border-top: 1px solid rgb(204, 204, 204);
+            padding: 10px 15px;
+        }
+    }
+}
